@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+body{
+    font-family: 'Palanquin Dark', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #eec3a4; */
+    background-color: #DDDDDD;
+}
+body h2{
+    color: #301b3f;
+    text-shadow: 0px 1px 2px #000000
+}
+body h3{
+    color: #301b3f;
+    text-shadow: 0px 1px 2px #000000
+}
+main{
+    padding-left: 20px;
+    overflow: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    /* background-color: #98ddca; */
+    background-color: #151515;
+    text-align: center;
+    color: white;
+}
+header{
+    display: inline;
+}
+nav{
+    /* background-color: #d5ecc2; */
+    background-color: #301b3f;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: white;
+    animation-duration: 1ms;
+}
+
+.card{
+    /* background-color: #ffd3b4; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+.card p{
+    word-spacing: 3px;
+}
+.featured-image {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+ }
+
+#content{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+aside h3{
+    text-align: center;
+}
+aside table{
+    font-size: 10px;
+}
+.profile img{
+    width: 150px;
+
+}
+.profile header {
+    text-align: center;
+}
+footer{
+
+    padding: 20px;
+    color: white;
+    text-shadow:0px 2px 4px #000000;
+    /* background-color: #ffaaa7;  */
+    background-color: #b4a5a5;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+    width: 100%;
+    padding: 0;
+    }
+    }
